@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter:wght@400;600;700&family=Roboto&family=Source+Code+Pro:wght@200;400&family=Source+Sans+Pro:wght@200;600&family=Urbanist:wght@100;400&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="main-container">
+            <form class="form-container" id="main-form">
+                <h2>Get in touch</h2>
+                <input 
+                    type="text"
+                    id="input-name"
+                    placeholder="Your Name" />
+                <input 
+                    type="email"
+                    id="input-email"
+                    placeholder="Your Email"/>
+                <input 
+                    type="text"
+                    id="input-phone"
+                    placeholder="Phone Number"/>
+                <textarea
+                    class="textarea"
+                    id="input-query" 
+                    rows="5"
+                    wrap="soft"
+                    placeholder="How can we help you?"></textarea>
+                <button 
+                    class="form-button"
+                    type="submit"
+                    id="form-button">
+                    Send
+                </button>
+            </form>
+        </div>
+
+        <script src="app.js"></script>
+    </body>
+</html>
